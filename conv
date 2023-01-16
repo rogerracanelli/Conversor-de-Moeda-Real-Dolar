@@ -49,15 +49,12 @@
     </div>
 
     <script>
-      // exchange rate (updated as of 2021-09)
       const exchangeRate = 5.71;
 
-      // function to convert dollars to reais
       function convertDollarToReal(dollar) {
         return dollar * exchangeRate;
       }
 
-      // function to handle the button click and display the result
       function convert() {
         const dollarAmount = document.getElementById("dollar-amount").value;
         const realAmount = convertDollarToReal(dollarAmount);
