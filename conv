@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Currency Converter</title>
+    <title>conversor de moedas</title>
     <style>
       /* styles for the interface */
       #converter {
@@ -41,8 +41,8 @@
   </head>
   <body>
     <div id="converter">
-      <h2>Currency Converter</h2>
-      <label for="dollar-amount">Enter dollar amount:</label>
+      <h2>conversor de moedas</h2>
+      <label for="dollar-amount">coloque o valor em dolar</label>
       <input type="text" id="dollar-amount">
       <input type="button" value="Convert" onclick="convert()">
       <p id="result"></p>
